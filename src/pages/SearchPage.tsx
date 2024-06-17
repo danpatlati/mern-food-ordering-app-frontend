@@ -94,7 +94,7 @@ const SearchPage = () => {
           placeHolder="Search by Cuisine or Restaurant Name"
           onReset={resetSearch}
         />
-        <div className="flex justify-between flex-col gap-3 lg:flex-row">
+        <div className="flex justify-between flex-col gap-3 lg:flex-row mt-12 md:mt-0">
           <SearchResultInfo total={results.pagination.total} city={city} />
           <SortOptionDropdown
             sortOption={searchState.sortOption}
